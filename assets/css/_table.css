@@ -1,0 +1,26 @@
+.table-wrapper {
+    margin: 40px 0;
+}
+
+.table {
+    width: 100%;
+}
+
+.table tr:nth-child(even){ 
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even){ 
+    background-color: #aeaeae;
+   
+}
+
+.table thead th {
+    padding: 10px;  
+    color: white;
+    background-color: #9771A4;
+}
+
+.table tbody td {
+    padding: 5px;
+}

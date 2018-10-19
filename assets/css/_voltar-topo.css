@@ -1,0 +1,27 @@
+.voltar-topo {
+    position:fixed;
+    opacity:0;
+    visibility:hidden;
+    overflow:hidden;
+    text-align:center;
+    z-index:99;
+    color:#fff;
+    line-height:44px;
+    right:25px;
+    bottom:-25px;
+    padding-top:2px;
+    border-radius:5px;
+    transition:all .5s ease-in-out;
+    transition-delay:.2s;
+}
+
+.voltar-topo > img {
+    width: 50px;
+}
+
+.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity:1;
+    bottom:100px;
+}

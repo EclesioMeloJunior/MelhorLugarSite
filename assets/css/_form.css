@@ -1,0 +1,42 @@
+.form-wrapper {
+    margin: 40px 0 80px;
+}
+
+.form-group-inputs {
+    display: flex;
+}
+
+.input-group, .form-input {
+    width: 100%;
+}
+
+.input-group:first-of-type {
+    padding-right: 20px; 
+}
+
+.input-group:last-of-type {
+    padding-left: 20px; 
+}
+
+.form-input {
+    margin-top: 5px;
+    height: 3em;
+
+    padding: 0px 15px;
+    border: 0.5px solid #aaa;
+    border-bottom: 3px solid #9771A4;
+}
+
+.form-submit {
+    border:none;
+    padding: 10px;
+    color: white;
+    background-color: #8309A0
+}
+
+.submit-wrapper {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

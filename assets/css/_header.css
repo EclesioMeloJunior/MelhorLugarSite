@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    padding: 20px 25px;
+
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-brand {
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.header .header-nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.header-nav-list .header-nav-item {
+    padding: 0px 10px;
+}
+
+.header-nav-item > a {
+    color: white;
+    text-decoration: none;  
+}

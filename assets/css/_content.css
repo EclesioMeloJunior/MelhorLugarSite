@@ -1,0 +1,14 @@
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.section-title {
+    display: inline;
+
+    font-size: 2em;
+    padding-bottom: 5px;    
+    font-weight: lighter;
+
+    border-bottom: 5px solid #8931a2;
+}

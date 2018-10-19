@@ -1,0 +1,19 @@
+.footer-section {
+    bottom: 0;
+    position: fixed;
+
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    padding: 20px;
+
+    background-color: #8931a2;
+}
+
+.footer-section > span {
+    color: white;
+}
